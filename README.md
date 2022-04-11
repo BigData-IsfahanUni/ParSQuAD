@@ -1,8 +1,8 @@
 <span align="center">
-    <a href="https://www.kaggle.com/neginabadani/parsquad"><img alt="Kaggle" src="https://img.shields.io/static/v1?label=Kaggle&message=PersianQuAD&logo=Kaggle&color=20BEFF"/></a>
+    <a href="https://www.kaggle.com/neginabadani/parsquad"><img alt="Kaggle" src="https://img.shields.io/static/v1?label=Kaggle&message=ParSQuAD&logo=Kaggle&color=20BEFF"/></a>
 </span>
 
-# PersianQuAD: The Native Question Answering Dataset for the Persian Language
+# ParSQuAD: Persian Question Answering Dataset based on Machine Translation of SQuAD 2.0
 Recent developments in Question Answering (QA) have improved state-of-the-art results, and various datasets have been released for this task. Since substantial English training datasets are available for this task, the majority of works published are for English Question Answering. However, due to the lack of Persian datasets, less research has been done on the latter language, making comparisons difficult. We present the first Persian Question Answering Dataset (ParSQuAD) based on the machine translation of the SQuAD 2.0 dataset. Many errors have been discovered within the process of translating the dataset; therefore, two versions of ParSQuAD have been generated depending on whether these errors have been corrected manually or automatically. As a result, the first large-scale QA training resource for Persian has been generated. In addition, we trained three baseline models, i.e., BERT, ALBERT, and Multilingual-BERT (mBERT), on both versions of ParSQuAD. mBERT achieves scores of 56.66% and 52.86% for F1 score and exact match ratio respectively on the test set with the first version and scores of 70.84% and 67.73% respectively with the second version. This model obtained the best results out of the three on each version of ParSQuAD.
 # Dataset
 ### Download
